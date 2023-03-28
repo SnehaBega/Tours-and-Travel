@@ -6,4 +6,4 @@ Members
 2. Ranjana Mahato ( Business Analyst) 
 3. Britika Shrestha ( Frontend Developer )
 4. Sneha Bega ( Backend Developer)
-5. Neha Mehenter (Backend Developer)
+5. Neha Mehenter (Frontend Developer)
