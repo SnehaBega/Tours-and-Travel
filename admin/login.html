@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tour and Travel</title>
+  <link rel="stylesheet" href="./login.css" />
+</head>
+
+<body>
+  <form action="login.php" method="post">
+
+    <div class="container">
+      <header>
+        <h1>Admin-Login Panel</h1>
+      </header>
+      <div class="email-container">
+        <div class="email-label">
+          <p>Email</p>
+          <ion-icon name="mail-outline"></ion-icon>
+        </div>
+        <div class="input-container">
+          <input type="email" name="email" placeholder="" required autofocus />
+        </div>
+      </div>
+      <div class="password-container">
+        <div class="password-label">
+          <p>Password</p>
+          <ion-icon name="lock-closed-outline"></ion-icon>
+        </div>
+        <div class="input-container">
+          <input type="password" name="password" placeholder="" required />
+        </div>
+      </div>
+      <div class="remember-container">
+        <label for="remember">
+          <input type="checkbox" id="remember" name="remember" />
+          <span>Remember me</span>
+        </label>
+        <a href="C:\xampp\htdocs\tour&travel\Login\forget-password.php">Forget Password</a>
+      </div>
+      <div class="button-container">
+        <button id="login-button" type="submit" name="submit" value="Login">Login</button>
+      </div>
+      <div class="register-container">
+        <p>Don't have an account? <a href="./Signup.html">Register</a></p>
+      </div>
+      <script src="login.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </div>
+  </form>
+</body>
+
+</html>
