@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback & Rating</title>
+    <link rel="stylesheet" href="Feedback2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<a href="../Login/dashboard.html" class="back-button"><i class="bi bi-arrow-left"></i></a>
+
+<body>
+    <div class="container">
+        <h1>Feedback & Rating</h1>
+        <form id="feedback-form" method="post" action="feedback.php">
+                     <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Britika">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Britika@example.com">
+            </div>
+            <div class="form-group">
+                <label for="rating">Rating</label>
+                <div class="rating-container">
+                    <input type="radio" name="rating" id="rating-5" value="5" required>
+                    <label for="rating-5"><i class="bi bi-star-fill"></i></label>
+                    <input type="radio" name="rating" id="rating-4" value="4" required>
+                    <label for="rating-4"><i class="bi bi-star-fill"></i></label>
+                    <input type="radio" name="rating" id="rating-3" value="3" required>
+                    <label for="rating-3"><i class="bi bi-star-fill"></i></label>
+                    <input type="radio" name="rating" id="rating-2" value="2" required>
+                    <label for="rating-2"><i class="bi bi-star-fill"></i></label>
+                    <input type="radio" name="rating" id="rating-1" value="1" required>
+                    <label for="rating-1"><i class="bi bi-star-fill"></i></label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="feedback">Feedback</label>
+                <textarea name="feedback" id="feedback" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="Feedback3.js"></script>
+</body>
+
+</html>
+<style>
+    .bi-arrow-left::before {
+    margin: 10px;
+    font-size: 30px;
+}
+</style>

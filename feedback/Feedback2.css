@@ -1,0 +1,151 @@
+.bi-arrow-left::before {
+    margin: 10px;
+    font-size: 30px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(Aesthetic\ blue\ abstrack\ wallpaper.jpeg);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 65%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-group label {
+    margin-right: 10px;
+}
+
+.rating-container {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.rating-container input[type="radio"] {
+    display: none;
+}
+
+.rating-container label {
+    color: #ddd;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.rating-container input[type="radio"]:checked+label {
+    color: #ffdd00;
+}
+
+form input[type="radio"] {
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    margin: 5px auto;
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    width: 150px;
+    background-color: #005a9e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #003366;
+}
+
+.success-message {
+    background-color: #DFF0D8;
+    color: #3C763D;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.error-message {
+    background-color: #F2DEDE;
+    color: #A94442;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.rating-container {
+    margin: 5px auto;
+    margin-top: 10px;
+    margin-left: 130px;
+    float: left;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* add this line to align stars to the right */
+    flex-direction: row-reverse;
+    /* add this line to reverse the order of the stars */
+}
+
+.rating-container input[type="radio"] {
+    display: none;
+}
+
+.rating-container label {
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.rating-container input[type="radio"]:checked~label {
+    color: #ffdf00;
+}
+
+.rating-container label:hover,
+.rating-container label:hover~label {
+    color: #ffdf00;
+}

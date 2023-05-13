@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Subscription Page</title>
+    <link rel="stylesheet" type="text/css" href="Subscription1.css">
+    <script src="Subscription2.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Subscribe Now</h1>
+        <form action="Subscription.php" method="POST" onsubmit="return validateForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Britika">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Britika@example.com">
+            <label for="subscription">Subscription Type:</label>
+            <select id="subscription" name="subscription">
+				<option value="">Select Subscription Type</option>
+				<option value="monthly">Monthly ($10/month)</option>
+				<option value="yearly">Yearly ($100/year)</option>
+			</select>
+            <input type="submit" value="Subscribe">
+        </form>
+
+    </div>
+</body>
+
+</html>

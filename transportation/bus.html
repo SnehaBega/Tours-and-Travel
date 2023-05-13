@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="read.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <title>Transportation Button</title>
+
+</head>
+<a href="../Login/dashboard.html" class="back-button"><i class="bi bi-arrow-left"></i></a>
+
+<body>
+  <div class="transportation-button">
+    Transportation
+    <div class="transportation-dropdown">
+      <a href="./bus.html"  onclick="showForm('bus')">Bus</a>
+      <a href="./read.html" onclick="showForm('flight')">Flight</a>
+    </div>
+  </div>    
+
+  <!-- <div section id ="bus-form" class="container"> -->
+    <div class="form-container" id="bus-form">
+
+    <form>
+        <h1> Bus transporation </h1>
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" required><br><br>
+  
+        <label for="route">Route:</label>
+        <input type="text" id="route" name="route" required><br><br>
+  
+        <label for="arrival-time">Arrival Time:</label>
+        <input type="time" id="arrival-time" name="arrival-time" required><br><br>
+  
+        <label for="departure-time">Departure Time:</label>
+        <input type="time" id="departure-time" name="departure-time" required><br><br>
+  
+        <label for="bus-type">Type of Bus:</label>
+        <select id="bus-type" name="bus-type" required>
+          <option value="deluxe-ac">Deluxe AC</option>
+          <option value="deluxe-non-ac">Deluxe Non-AC</option>
+          <option value="standard-ac">Standard AC</option>
+          <option value="standard-non-ac">Standard Non-AC</option>
+        </select><br><br>
+  
+        <label for="seat">Choose a seat:</label>
+        <input type="text" id="seat" name="seat" required><br><br>
+  
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+      </body>
+    </html>
+
+    <style>
+      .back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #000000;
+    border-radius: 10px;
+      }
+  </style>

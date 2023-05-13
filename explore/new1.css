@@ -1,0 +1,37 @@
+.trip-box {
+    display: inline-block;
+    width: 45%;
+    height: auto;
+    border: 2px solid rgb(229, 228, 228);
+    /* border-radius: 5px; */
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.trip-box:hover {
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+
+.trip-box img {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.trip-heading {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.trip-price {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.trip-price del {
+    color: red;
+    margin-left: 5px;
+}

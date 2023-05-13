@@ -1,0 +1,114 @@
+    /* Body styles */
+    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f5f5f5;
+        color: #444;
+        margin: 0;
+    }
+    /* Header styles */
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+    }
+    
+    header h1 {
+        margin: 0;
+    }
+    /* styles for the trip-box container */
+    
+    .trip-box {
+        margin: 50px auto;
+        max-width: 600px;
+        padding: 20px;
+        background-color: #f2f2f2;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    }
+    /* styles for the trip-box image */
+    
+    .trip-box img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        border-radius: 5px;
+    }
+    /* styles for the trip-info items */
+    
+    .trip-info__item {
+        margin-right: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    /* styles for the trip-info item images */
+    
+    .trip-info__item img {
+        height: 24px;
+        margin-right: 10px;
+    }
+    
+    .trip-info ul {
+        margin-right: 10px;
+        padding: 10px;
+    }
+    /* styles for the highlights and itinerary headings */
+    
+    .trip-box__heading--highlights,
+    .trip-box__heading--itinerary,
+    .trip-box__heading--cost,
+    .trip-box__heading--essential {
+        margin-top: 5px;
+    }
+    
+    ul,
+    ol {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+    
+    li {
+        margin: 10px;
+    }
+    
+    p {
+        margin: 10px;
+    }
+    /* styles for the book-btn button */
+    
+    .book-btn {
+        display: block;
+        margin: 30px auto 0;
+        padding: 10px 20px;
+        background-color: #0066cc;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    /* styles for the benefits container */
+    
+    .benefits {
+        margin-top: 30px;
+    }
+    /* styles for the benefits list items */
+    
+    .benefits ul {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+    /* styles for the benefits list items */
+    
+    .benefits li {
+        list-style: circle;
+        margin-left: 10px;
+    }

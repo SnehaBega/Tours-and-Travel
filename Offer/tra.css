@@ -1,0 +1,109 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+/*   
+h1{
+    text-decoration: underline;
+}
+  */
+
+  .trip-box {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(204, 222, 238);
+
+  }
+  
+  .trip-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .trip-heading {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .trip-price {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  
+  .trip-price del {
+    color: #999;
+    margin-left: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+    text-align: left;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #3e8e41;
+  }
+  
+
+
+   /* .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .trip-box {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .trip-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .trip-heading {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  
+  
+  .button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #454445
+  }
+    
+   */
